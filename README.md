@@ -23,3 +23,4 @@ osmify.parse('90 SPARKS ST')
 - https://github.com/hassansin/parse-address
 - https://github.com/DamonOehlman/addressit
 - https://github.com/tjmehta/street-types
+- [Ottawa building permits](http://data.ottawa.ca/en/dataset/construction-demolition-pool-enclosure-permits-monthly)
