@@ -20,6 +20,7 @@ osmify.parse('90 SPARKS ST')
 
 ## References
 
+- https://github.com/slevithan/xregexp
 - https://github.com/hassansin/parse-address
 - https://github.com/DamonOehlman/addressit
 - https://github.com/tjmehta/street-types
