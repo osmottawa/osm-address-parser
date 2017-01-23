@@ -2,9 +2,15 @@
 
 > OpenStreetMap Street Address Parser
 
-This NodeJS library helps convert street address strings into a standard OSM `addr:*` format.
+`OSMify` helps convert street address strings into a standard OSM `addr:*` format.
 
-## Quickstart
+## Install
+
+```bash
+$ npm install --save osmify
+```
+
+## Usage
 
 ```javascript
 import * as osmify from 'osmify'
@@ -17,6 +23,8 @@ osmify.parse('90 SPARKS ST')
 }
 */
 ```
+
+## API
 
 ## References
 
