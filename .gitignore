@@ -1,3 +1,4 @@
 # Visual Studio project files
 /typings/*
 osmify.njsproj
+/.vs/*
