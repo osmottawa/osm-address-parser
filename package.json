@@ -1,0 +1,32 @@
+{
+  "name": "osmify",
+  "version": "0.1.0",
+  "description": "OpenStreetMap street address parser",
+  "main": "index.js",
+  "dependencies": {
+    "geojson-writer": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.4",
+    "coveralls": "^2.11.15",
+    "documentation": "^4.0.0-beta.18",
+    "jest-cli": "^18.1.0",
+    "standard": "^8.6.0",
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "test": "npm run lint && jest --coverage",
+    "lint": "standard",
+    "docs": "documentation readme index.js --section=API"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmottawa/osmify.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osmottawa/osmify/issues"
+  },
+  "homepage": "https://github.com/osmottawa/osmify#readme"
+}
