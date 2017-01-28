@@ -4,6 +4,7 @@
   "description": "OpenStreetMap street address parser",
   "main": "index.js",
   "dependencies": {
+    "@turf/helpers": "^3.7.5",
     "geojson-writer": "^0.3.4"
   },
   "devDependencies": {
