@@ -4,8 +4,7 @@
   "description": "OpenStreetMap street address parser",
   "main": "index.js",
   "dependencies": {
-    "@turf/helpers": "^3.7.5",
-    "geojson-writer": "^0.3.4"
+    "@turf/helpers": "^3.7.5"
   },
   "devDependencies": {
     "@types/node": "^7.0.4",
@@ -29,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/osmottawa/osmify/issues"
   },
-  "homepage": "https://github.com/osmottawa/osmify#readme"
+  "homepage": "https://github.com/osmottawa/osmify#readme",
+  "jest": {
+    "verbose": true
+  },
+  "testEnvironment": "node",
+  "standard": {
+    "env": "jest"
+  }
 }
