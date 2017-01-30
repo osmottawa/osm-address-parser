@@ -20,7 +20,7 @@
 $ npm install --save osmify
 ```
 
-**web browser ([ES5](http://kangax.github.io/compat-table/es5/)**
+**web browser ([ES5](http://kangax.github.io/compat-table/es5/))**
 
 ```html
 <script src="https://unpkg.com/osmify/osmify.min.js"></script>
