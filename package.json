@@ -25,7 +25,7 @@
     "jest-cli": "^18.1.0",
     "standard": "^8.6.0",
     "typescript": "^2.1.5",
-    "uglifyjs": "^2.4.10"
+    "uglify-js": "git://github.com/mishoo/UglifyJS2.git#harmony"
   },
   "repository": {
     "type": "git",
