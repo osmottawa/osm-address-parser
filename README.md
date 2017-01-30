@@ -14,16 +14,22 @@
 
 ## Install
 
+**npm**
+
 ```bash
 $ npm install --save osmify
+```
+
+**web browser**
+
+```html
+<script src="https://unpkg.com/osmify/osmify.min.js"></script>
 ```
 
 ## Usage
 
 ```javascript
-import * as osmify from 'osmify'
-
-osmify.parse('90 SPARKS ST')
+osmify('90 SPARKS ST')
 /*
 {
   'addr:housenumber': '90',
