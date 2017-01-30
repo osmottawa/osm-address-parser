@@ -3,8 +3,8 @@ const path = require('path')
 const osmify = require('.')
 
 const directories = {
-  out: path.join(__dirname, 'fixtures', 'out'),
-  in: path.join(__dirname, 'fixtures', 'in')
+  out: path.join(__dirname, 'test', 'out'),
+  in: path.join(__dirname, 'test', 'in')
 }
 
 function save (directory, filename, features) {
