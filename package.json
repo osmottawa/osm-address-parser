@@ -10,6 +10,13 @@
     "osmify.js",
     "osmify.min.js"
   ],
+  "scripts": {
+    "prepublish": "npm run test && npm run build",
+    "test": "npm run lint && jest --coverage",
+    "lint": "standard",
+    "docs": "documentation readme index.js --section=API",
+    "build": "browserify index.js -s osmify > osmify.js && uglifyjs osmify.js -c -m > osmify.min.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.0.0",
@@ -19,13 +26,6 @@
     "standard": "^8.6.0",
     "typescript": "^2.1.5",
     "uglifyjs": "^2.4.10"
-  },
-  "scripts": {
-    "prepublish": "npm run test && npm run build",
-    "test": "npm run lint && jest --coverage",
-    "lint": "standard",
-    "docs": "documentation readme index.js --section=API",
-    "build": "browserify index.js -s osmify > osmify.js && uglifyjs osmify.js -c -m > osmify.min.js"
   },
   "repository": {
     "type": "git",
